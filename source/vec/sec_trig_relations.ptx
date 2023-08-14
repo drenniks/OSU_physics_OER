@@ -1,89 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_trig_relations" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Trigonometric Relations</title>
+	<title>Trigonometric Relations</title>
 
-      <video youtube="esHLwySu4XU">
-        <description>MIT Going between representations.</description>
-      </video>
-			
-			<!-- Omitted for brevity
-    <p>
-Previously, we claimed that vector analysis is an important aspect of quantifying motion that occurs in more than one physical dimension and that one useful property of vectors is that they can be broken down into components along the axes of a coordinate system using unit vectors. 
-    </p>
-		-->
-    
- <p>
-Recall that the sides of a right triangle can be related to the angle using the trigonometric relations in the figure below.
-</p>
+	<video youtube="esHLwySu4XU">
+		<description>MIT Going between representations.</description>
+	</video>
+				
+				<!-- Omitted for brevity
+		<p>
+	Previously, we claimed that vector analysis is an important aspect of quantifying motion that occurs in more than one physical dimension and that one useful property of vectors is that they can be broken down into components along the axes of a coordinate system using unit vectors. 
+		</p>
+			-->
+		
+	<p>Recall that the sides of a right triangle can be related to the angle using the trigonometric relations in the figure below.</p>
 
-    <figure xml:id="vec_right_tri_and_vec">
-    	<caption>A right triangle with angle theta and the lengths of the sides labeled as opposite, adjacent and hypotenuse next to a 2D position vector oriented at the origin of an xy-coordinate system.</caption>
-    		<image source="vectors/vec_right_tri_and_vec.png" width = "100%" ></image>
-    </figure>
-    
-    
-<p>
-Consider the sine of angle <m> \theta</m> and its relationship to the sides of the triangle
-</p>
+	<figure xml:id="vec_right_tri_and_vec">
+		<caption>A right triangle with angle theta and the lengths of the sides labeled as opposite, adjacent and hypotenuse next to a 2D position vector oriented at the origin of an xy-coordinate system.</caption>
+		<image source="vectors/vec_right_tri_and_vec.png" width = "100%" ></image>
+	</figure>
+		
+		
+	<p>Consider the sine of angle <m> \theta</m> and its relationship to the sides of the triangle</p>
 
-<me>
-\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{r_y}{r}
-</me>	
+	<me>
+		\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{r_y}{r}
+	</me>	
 
-<p>
-Suppose you are given the magnitude and direction angle and you would like to find the components of the vector. You can solve the above equation for the <m>y</m>-component of the position vector <m> \vec{r} </m>  using the above relationship where <m> r_y = r\sin\theta</m>. In this case, the <m>y</m>-component is the magnitude of the vector multiplied by the sine of the angle. 
-</p>
+	<p>Suppose you are given the magnitude and direction angle and you would like to find the components of the vector. You can solve the above equation for the <m>y</m>-component of the position vector <m> \vec{r} </m>  using the above relationship where <m> r_y = r\sin\theta</m>. In this case, the <m>y</m>-component is the magnitude of the vector multiplied by the sine of the angle.</p>
 
-<p>
-Now, consider the cosine of angle <m> \theta</m> and its relationship to the sides of the triangle
-</p>
+	<p>Now, consider the cosine of angle <m> \theta</m> and its relationship to the sides of the triangle</p>
 
-<me>
-\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{r_x}{r}
-</me>	
+	<me>
+		\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{r_x}{r}
+	</me>	
 
-<p>
-To find the <m>x</m>-component of the position vector <m>\vec{r} </m> you can use the above relationship where <m> r_x = r\cos\theta</m>. 
-</p>
+	<p>To find the <m>x</m>-component of the position vector <m>\vec{r} </m> you can use the above relationship where <m> r_x = r\cos\theta</m>.</p>
 
-<p>
-The third relationship allows you to determine the <alert>direction angle</alert> <m>\theta</m> of the position vector using its components. 
-</p>
+	<p>The third relationship allows you to determine the <alert>direction angle</alert> <m>\theta</m> of the position vector using its components. </p>
 
-<me>
-tan \theta = \frac{\text{opposite}}{\text{adjacent}} = \frac{r_y}{r_x}  \rightarrow \theta = \tan^{-1}(\frac{r_y}{r_x})
-</me>	
+	<me>
+		tan \theta = \frac{\text{opposite}}{\text{adjacent}} = \frac{r_y}{r_x}  \rightarrow \theta = \tan^{-1}(\frac{r_y}{r_x})
+	</me>	
 
-<p>
-Note that vectors are intimately related to right triangle trigonometry. In fact, geometrically the magnitude of a vector is simply the hypotenuse, which can be determined using the familiar Pythagorean theorem.
-</p>
+	<p>Note that vectors are intimately related to right triangle trigonometry. In fact, geometrically the magnitude of a vector is simply the hypotenuse, which can be determined using the familiar Pythagorean theorem.</p>
 
-<me>
-r = |\vec{r}| = \sqrt{r_x^2 + r_y^2}
-</me>	
+	<me>
+		r = |\vec{r}| = \sqrt{r_x^2 + r_y^2}
+	</me>	
 
 
-			<exercises>
+	<exercises>
 		<title>Practice Activities</title>
-				<exercise xml:id="x_vector-lengths">
-		<statement>
-		<p>Find the length of the vectors <m>\vec{v_1}= 3\hat{x}-4\hat{y}</m> and <m>\vec{v_2}= -12\hat{x}-5\hat{y}</m>.  Find their direction as an angle relative to an axis of your choice.</p>
-		</statement>
+		<exercise xml:id="x_vector-lengths">
+			<statement>
+				<p>Find the length of the vectors <m>\vec{v_1}= 3\hat{x}-4\hat{y}</m> and <m>\vec{v_2}= -12\hat{x}-5\hat{y}</m>.  Find their direction as an angle relative to an axis of your choice.</p>
+			</statement>
 		</exercise>
 		<exercise>
-		<statement>
-		<p>A vector with length 12 m points 10 degrees west of south.  Sketch this vector and find its <m>x</m>- and <m>y</m>-components.</p>
-		</statement>
+			<statement>
+				<p>A vector with length 12 m points 10 degrees west of south.  Sketch this vector and find its <m>x</m>- and <m>y</m>-components.</p>
+			</statement>
 		</exercise>
-		</exercises>
+	</exercises>
 
-
-<references>
-<biblio xml:id="ref_mit-vectors6">
-<p>Going between representations by Dr. Michelle Tomasik from MIT 8.01 Classical Mechanics, Fall 2016, used under Creative Commons BY-NC-SA.</p>
-</biblio>
-</references>
-	
+	<references>
+		<biblio xml:id="ref_mit-vectors6">
+			<p>Going between representations by Dr. Michelle Tomasik from MIT 8.01 Classical Mechanics, Fall 2016, used under Creative Commons BY-NC-SA.</p>
+		</biblio>
+	</references>
 </section>
-

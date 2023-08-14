@@ -1,94 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_vector_operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Vector Operations</title>
+	<title>Vector Operations</title>
 
-      <video youtube="Jf2PgGInUEk">
-        <description>MIT vector operations.</description>
-      </video>
-			
-			<!--
-    <p>
-     In this course you will become comfortable performing several vector operations.
-    </p>
-		-->
-    
- <exercises>
- <title> Vector Addition</title>
- </exercises>
-
- <p>
-Suppose you have two vectors <m> \vec{A}</m> and <m> \vec{B}</m>. To add the two vectors, you will place the tail of <m> \vec{B}</m> at the head of <m> \vec{A}</m>. The vector connecting the tail of  <m> \vec{A}</m> to the head of <m> \vec{B}</m> is the sum <m> \vec{A} + \vec{B}</m>.
-</p>
+	<video youtube="Jf2PgGInUEk">
+		<description>MIT vector operations.</description>
+	</video>
+				
+				<!--
+		<p>
+		In this course you will become comfortable performing several vector operations.
+		</p>
+			-->
 		
-    <figure xml:id="vec_addition">
-    	<caption>A representation of vector addition using arrows.</caption>
-    		<image source="vectors/vec_addition.png" width = "25%" ></image>
-    </figure>
-    
- <exercises>
- <title> Vector Subtraction</title>
- </exercises>
+	<exercises>
+		<title> Vector Addition</title>
+	</exercises>
 
-<p>
-To subtract two vectors, you again start by placing the vectors tail-to-tail.  Then, you can rewrite the vector <m>\vec{C} = \vec{A} - \vec{B}</m> as <m>\vec{B} = \vec{A} + \vec{C}</m>. Now you can use vector addition to find <m>\vec{C})</m>, which is the vector that must be added to <m>\vec{A}</m> so that the sum of <m>\vec{A}</m> and <m>\vec{C}</m> is <m>\vec{B}</m>.
- </p>
- 
-     <figure xml:id="vec_subtraction2">
-    	<caption>A representation of vector subtraction using arrows.</caption>
-    		<image source="vectors/vec_subtraction.png" width = "25%" ></image>
-    </figure>
+	<p>Suppose you have two vectors <m> \vec{A}</m> and <m> \vec{B}</m>. To add the two vectors, you will place the tail of <m> \vec{B}</m> at the head of <m> \vec{A}</m>. The vector connecting the tail of  <m> \vec{A}</m> to the head of <m> \vec{B}</m> is the sum <m> \vec{A} + \vec{B}</m>.</p>
+			
+	<figure xml:id="vec_addition">
+		<caption>A representation of vector addition using arrows.</caption>
+		<image source="vectors/vec_addition.png" width = "25%" ></image>
+	</figure>
+		
+	<exercises>
+		<title> Vector Subtraction</title>
+	</exercises>
+
+	<p>To subtract two vectors, you again start by placing the vectors tail-to-tail.  Then, you can rewrite the vector <m>\vec{C} = \vec{A} - \vec{B}</m> as <m>\vec{B} = \vec{A} + \vec{C}</m>. Now you can use vector addition to find <m>\vec{C})</m>, which is the vector that must be added to <m>\vec{A}</m> so that the sum of <m>\vec{A}</m> and <m>\vec{C}</m> is <m>\vec{B}</m>.</p>
+	
+	<figure xml:id="vec_subtraction2">
+		<caption>A representation of vector subtraction using arrows.</caption>
+		<image source="vectors/vec_subtraction.png" width = "25%" ></image>
+	</figure>
+
+	<p>Alternatively, you can add the negative <m> \vec{A} + (-\vec{B})</m>. Recall that the negative vector points in the opposite direction but has the same length.</p>
+	
+	<figure xml:id="vec_subtraction">
+		<caption>Another representation of vector subtraction using arrows.</caption>
+		<image source="vectors/vec_subtraction.png" width = "25%" ></image>
+	</figure>
+
+	<exercises>
+		<title> Multiplication of a vector by a scalar</title>
+	</exercises>
+
+	<p>Multiplication of a vector with a positive scalar will <em>scale</em> the magnitude of the vector but leave the direction unchanged. Multiplication by a negative scalar will <em>reverse</em> the direction in addition to scaling the vector magnitude.</p>
+
+	<figure xml:id="vec_scalar_mult">
+		<caption>An arrow representing vector A is shown. The scalar multiplication of A by -1/2 and 2 is also shown.</caption>
+		<image source="vectors/vec_scalar_mult.png" width = "100%" ></image>
+	</figure>
 
 
-<p>
-Alternatively, you can add the negative <m> \vec{A} + (-\vec{B})</m>. Recall that the negative vector points in the opposite direction but has the same length. 
- </p>
- 
-     <figure xml:id="vec_subtraction">
-    	<caption>Another representation of vector subtraction using arrows.</caption>
-    		<image source="vectors/vec_subtraction.png" width = "25%" ></image>
-    </figure>
-
- <exercises>
- <title> Multiplication of a vector by a scalar</title>
- </exercises>
-
-<p>
-Multiplication of a vector with a positive scalar will <em>scale</em> the magnitude of the vector but leave the direction unchanged. Multiplication by a negative scalar will <em>reverse</em> the direction in addition to scaling the vector magnitude.
-</p>
-
-     <figure xml:id="vec_scalar_mult">
-    	<caption>An arrow representing vector A is shown. The scalar multiplication of A by -1/2 and 2 is also shown.</caption>
-    		<image source="vectors/vec_scalar_mult.png" width = "100%" ></image>
-    </figure>
-
-
-  		<exercises>
+	<exercises>
 		<title>Practice Activities</title>
 		<p>Given the vector <m>\vec{A}</m> in <xref ref="vec_scalar_mult"></xref>, find each of the following and sketch the resulting vector.</p>
-				<exercise>
-		<statement>
-		<p><m>\vec{C} = -3\vec{A}</m></p>
-		</statement>
+		<exercise>
+			<statement>
+				<p><m>\vec{C} = -3\vec{A}</m></p>
+			</statement>
 		</exercise>
 		<exercise>
-		<statement>
-		<p>Find <m>2\vec{A} + 3\vec{A}</m>.</p>
-		</statement>
+			<statement>
+				<p>Find <m>2\vec{A} + 3\vec{A}</m>.</p>
+			</statement>
 		</exercise>
 		<exercise>
-		<statement>
-		<p>Find <m>\vec{C} - \vec{A}</m>.</p>
-		</statement>
+			<statement>
+				<p>Find <m>\vec{C} - \vec{A}</m>.</p>
+			</statement>
 		</exercise>
-		</exercises>
+	</exercises>
 
-      
-<references>
-<biblio xml:id="ref_mit-vectors2">
-<p>Vector Operations by Dr. Michelle Tomasik from MIT 8.01 Classical Mechanics, Fall 2016, used under Creative Commons BY-NC-SA.</p>
-</biblio>
-</references>
-
+	<references>
+		<biblio xml:id="ref_mit-vectors2">
+			<p>Vector Operations by Dr. Michelle Tomasik from MIT 8.01 Classical Mechanics, Fall 2016, used under Creative Commons BY-NC-SA.</p>
+		</biblio>
+	</references>
 </section>
-
