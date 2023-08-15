@@ -5,64 +5,60 @@
 	
 		  <video youtube="iJoZIbjRrYA"><description>Defining position.</description></video>
 	
-<definition xml:id="def_position">
-	<title>Position</title>
-	<statement>
-		<p>The <term>position</term> of an object describes the location of that object relative to some origin as a vector quantity.</p>
-	</statement>
-</definition>
+	<definition xml:id="def_position">
+		<title>Position</title>
+		<statement>
+			<p>The <term>position</term> of an object describes the location of that object relative to some origin as a vector quantity.</p>
+		</statement>
+	</definition>
 
-<p>As described above, a position vector is always measured relative to some <term>origin</term> (a fixed location in space) and using some set of <term>coordinates</term>.  In general, position is three-dimensional, but for now, we will stick to two dimensions.  As with any vector, position can be written either by giving a magnitude and a direction, or by writing it in terms of components: <m>\vec{r}= r_x\hat{x} + r_y \hat{y}</m>.  A graphical representation of such a vector is shown below.  Various letters can be used for position, including the generic <m>\vec{r}</m> used above and the generic Cartesian letters <m>\vec{x}</m>, <m>\vec{y}</m>, and <m>\vec{z}</m>.</p>
+	<p>As described above, a position vector is always measured relative to some <term>origin</term> (a fixed location in space) and using some set of <term>coordinates</term>.  In general, position is three-dimensional, but for now, we will stick to two dimensions.  As with any vector, position can be written either by giving a magnitude and a direction, or by writing it in terms of components: <m>\vec{r}= r_x\hat{x} + r_y \hat{y}</m>.  A graphical representation of such a vector is shown below.  Various letters can be used for position, including the generic <m>\vec{r}</m> used above and the generic Cartesian letters <m>\vec{x}</m>, <m>\vec{y}</m>, and <m>\vec{z}</m>.</p>
 
-<note>
-<title>Coordinates</title>
-<p>
-You will start by using the Cartesian coordinates that are probably familiar from math: <m>x</m> along the horizontal axis and <m>y</m> along the vertical axis (plus <m>z</m> if you need it!).  Although these coordinates are familiar, they are also arbitrary, and you will soon find that physics likes to use other coordinates when it is convenient for a situation.  This may mean rotating the Cartesian coordinates so they are tilted, using different coordinates for two different objects in the same context, or even using non-Cartesian coordinates such as circular (polar) coordinates.
-</p>
-</note>
+	<note>
+		<title>Coordinates</title>
+		<p>You will start by using the Cartesian coordinates that are probably familiar from math: <m>x</m> along the horizontal axis and <m>y</m> along the vertical axis (plus <m>z</m> if you need it!).  Although these coordinates are familiar, they are also arbitrary, and you will soon find that physics likes to use other coordinates when it is convenient for a situation.  This may mean rotating the Cartesian coordinates so they are tilted, using different coordinates for two different objects in the same context, or even using non-Cartesian coordinates such as circular (polar) coordinates.</p>
+	</note>
 
-  <figure xml:id="mot_position-vector">
-		 <caption>A two-dimensional position vector within an <m>xy</m>-coordinate system.</caption>
+	<figure xml:id="mot_position-vector">
+		<caption>A two-dimensional position vector within an <m>xy</m>-coordinate system.</caption>
 		<image source="2D position vector with angle.png" width = "50%">
-			<description>On an xy axis, an arrow pointing up and to the right, labeled with magnitude r and angle theta.</description></image>
-  </figure>
+		<description>On an xy axis, an arrow pointing up and to the right, labeled with magnitude r and angle theta.</description></image>
+	</figure>
 	
-		<exercises>
+	<exercises>
 		<title>Activities</title>
 		<exercise xml:id="x_positions-comps">
-		<title>Practice: Position Components</title>
-		<statement>
-		<p>As with any other vector, a position vector can be broken into components, as shown in the figure above.  Use what you know about triangles and vector components to write equations relating <m>r_x</m> and <m>r_y</m> to <m>r</m> (the magnitude of the position) and <m>\theta</m>.</p>
-		</statement>
+			<title>Practice: Position Components</title>
+			<statement>
+				<p>As with any other vector, a position vector can be broken into components, as shown in the figure above.  Use what you know about triangles and vector components to write equations relating <m>r_x</m> and <m>r_y</m> to <m>r</m> (the magnitude of the position) and <m>\theta</m>.</p>
+			</statement>
 		</exercise>
-			<exercise xml:id="x_state-vectors">
+		<exercise xml:id="x_state-vectors">
 			<title>Practice: State Vectors</title>
-			<p>Choose a different state (or country) than Oregon and find a simple map.  Mark a few of the major cities or landmarks on the map (at least three).
-			<ol marker="a">
-			<li>
-			  <p>Choose a coordinate system and an origin and mark them on your map.</p>
-			</li>
-			<li>
-			  <p>Draw position vectors for each of the locations you marked on your map.</p>
-			</li>
-			<li>
-			  <p>Write each position vector in rectangular form like <m>\vec{r} = r_x\hat{x} + r_y\hat{y}</m>.</p>
-			</li>
-			<li>
-			  <p>Look up any appropriate numbers to find a numerical position vector for each point.</p>
-			</li>
-			</ol>
-			</p>
-			</exercise>
-		</exercises>
+			<p>Choose a different state (or country) than Oregon and find a simple map.  Mark a few of the major cities or landmarks on the map (at least three).</p>
+				<ol marker="a">
+					<li>
+						<p>Choose a coordinate system and an origin and mark them on your map.</p>
+					</li>
+					<li>
+						<p>Draw position vectors for each of the locations you marked on your map.</p>
+					</li>
+					<li>
+						<p>Write each position vector in rectangular form like <m>\vec{r} = r_x\hat{x} + r_y\hat{y}</m>.</p>
+					</li>
+					<li>
+						<p>Look up any appropriate numbers to find a numerical position vector for each point.</p>
+					</li>
+				</ol>
+		</exercise>
+	</exercises>
 		
-		<p>The State Vectors exercise above is a good example of a <term>calculation</term>.  When you are doing calculations in physics, you should follow the steps below.</p>
+	<p>The State Vectors exercise above is a good example of a <term>calculation</term>.  When you are doing calculations in physics, you should follow the steps below.</p>
 
-		  <figure xml:id="fig_calculation">
-		 <caption>Steps to follow when performing a calculation.</caption>
+	<figure xml:id="fig_calculation">
+		<caption>Steps to follow when performing a calculation.</caption>
 		<image source="CalculationSteps.png" width = "85%">
-			<description>2. Calculating an Unknown Quantity.  2a. Represent principles – identify relevant concepts, laws, or definitions.  2b. Find unknown(s) symbolically – without numbers, find any unknown(s) in terms of symbols representing known quantities.  2c. Plug in numbers – plug numbers (with units) into your symbolic answer! </description></image>
-  </figure>	
-	
+			<description>2. Calculating an Unknown Quantity.  2a. Represent principles - identify relevant concepts, laws, or definitions.  2b. Find unknown(s) symbolically - without numbers, find any unknown(s) in terms of symbols representing known quantities.  2c. Plug in numbers - plug numbers (with units) into your symbolic answer!</description>
+		</image>
+  	</figure>	
 </section>
-

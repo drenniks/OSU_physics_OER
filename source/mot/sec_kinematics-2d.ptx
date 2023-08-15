@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_kinematics-2d" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Constant Acceleration - 2D</title>
-		
+  	<title>Constant Acceleration - 2D</title>
 		  
-      <video youtube="FJE5RVCgXGg"><description>Motion with constant acceleration in two dimensions.</description></video>
-    
-	
-		
+    <video youtube="FJE5RVCgXGg"><description>Motion with constant acceleration in two dimensions.</description></video>
+    	
 	<exercises>
-	<title>Activities</title>
+		<title>Activities</title>
 		<exercise xml:id="x_realworld-ball">
 			<title>Real-world Context - Throwing a Ball</title>
 			<statement>
-			<p>You throw a ball that flies through the air and eventually lands some distance away from you.  Find the initial velocity and speed with which you threw the ball.</p>
+				<p>You throw a ball that flies through the air and eventually lands some distance away from you.  Find the initial velocity and speed with which you threw the ball.</p>
 			</statement>
 			<hint>
-			<p>Remember to follow the full set of steps from <xref ref="fig_realworld"/>.  Part 1a can be especially helpful in keeping track of all the known and unknown quantities.  What numbers do you need to estimate for this problem?</p>
+				<p>Remember to follow the full set of steps from <xref ref="fig_realworld"/>.  Part 1a can be especially helpful in keeping track of all the known and unknown quantities.  What numbers do you need to estimate for this problem?</p>
 			</hint>
-
 			<solution>
-					<figure xml:id="mot_vb_proj-mot">
-		  <caption>A projectile motion practice problem.</caption>
-      <video youtube="lyOJABYAlO4"></video>
-    </figure>
-		</solution>
-			</exercise>
-
-
-			</exercises>
-	
+				<figure xml:id="mot_vb_proj-mot">
+		  			<caption>A projectile motion practice problem.</caption>
+      				<video youtube="lyOJABYAlO4"></video>
+   				 </figure>
+			</solution>
+		</exercise>
+	</exercises>
 </section>
-
