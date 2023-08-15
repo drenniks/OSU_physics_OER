@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_potential-energy-diagrams" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Potential Energy Diagrams</title>
+  	<title>Potential Energy Diagrams</title>
 
-      <video youtube="plP2MLFQZNY"><description>Introducing potential energy diagrams.</description></video>
+    <video youtube="plP2MLFQZNY"><description>Introducing potential energy diagrams.</description></video>
 
-<lemma xml:id="r_potential-energy-diagrams">
-	<title>Potential Energy Diagrams</title>
-	<statement>
-	<p>A potential energy diagram is a graph of the potential energy <m>U(x)</m> vs. <m>x</m> for some system of interest.  It is also often useful to indicate the total energy of a system.</p>
-	</statement>
+	<lemma xml:id="r_potential-energy-diagrams">
+		<title>Potential Energy Diagrams</title>
+		<statement>
+			<p>A potential energy diagram is a graph of the potential energy <m>U(x)</m> vs. <m>x</m> for some system of interest.  It is also often useful to indicate the total energy of a system.</p>
+		</statement>
 	</lemma>
 
-<exercises>
-	<title>Activity: Spring Potential Energy Diagram</title>
-			<p>A block on a frictionless, horizontal table is connected to a spring (the other end of the spring is fixed to a wall).  The spring is initially compressed from its equilibrium position by a distance of <m>x_i</m>.</p>
-			<exercise>
+	<exercises>
+		<title>Activity: Spring Potential Energy Diagram</title>
+		<p>A block on a frictionless, horizontal table is connected to a spring (the other end of the spring is fixed to a wall).  The spring is initially compressed from its equilibrium position by a distance of <m>x_i</m>.</p>
+		<exercise>
 			<statement>
-			  <p>Sketch and label a potential energy diagram for this system.</p>
-				</statement>
-				<hint>
-				<p>Recall the definition of the spring potential energy from <xref ref="def_spring-potential-energy"></xref>.</p>
-				</hint>
-			</exercise>
-			<exercise>
-			<statement>
-			<p>On your diagram, find the location(s) where the potential energy is (a) largest and (b) smallest.  Explain how you can tell from the diagram.</p>
+				<p>Sketch and label a potential energy diagram for this system.</p>
 			</statement>
 			<hint>
-			<p>If you have not done so already, sketch the total energy on your diagram.  How does the total energy change as the block moves?</p>
+				<p>Recall the definition of the spring potential energy from <xref ref="def_spring-potential-energy"></xref>.</p>
 			</hint>
-			</exercise>
-			<exercise>
+		</exercise>
+		<exercise>
+			<statement>
+				<p>On your diagram, find the location(s) where the potential energy is (a) largest and (b) smallest.  Explain how you can tell from the diagram.</p>
+			</statement>
+			<hint>
+				<p>If you have not done so already, sketch the total energy on your diagram.  How does the total energy change as the block moves?</p>
+			</hint>
+		</exercise>
+		<exercise>
 			<p>On your diagram, find the location(s) where the kinetic energy is (a) largest and (b) smallest.  Explain how you can tell from the diagram.</p>
-			</exercise>
-						<exercise>
+		</exercise>
+		<exercise>
 			<p>On your diagram, find the location(s) where the spring force is (a) largest and (b) smallest.  Do you think there is a way to tell this from the diagram alone?</p>
-			</exercise>
-				</exercises>
-	
+		</exercise>
+	</exercises>
 </section>

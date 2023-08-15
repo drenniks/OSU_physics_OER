@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_work2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chop-Multiply-Add: Work for Non-Constant Forces</title>
+  	<title>Chop-Multiply-Add: Work for Non-Constant Forces</title>
 	
-    <p>
-     In <xref ref="sec_calc1"></xref>, you learned the Chop-Multiply-Add strategy for constructing physics integrals.  You can use this strategy to help find the work done by non-constant forces.
-    </p>
+    <p>In <xref ref="sec_calc1"></xref>, you learned the Chop-Multiply-Add strategy for constructing physics integrals.  You can use this strategy to help find the work done by non-constant forces.</p>
 			
 	<p><term>Chop:</term> Work involves multiplying force and displacement along some path traveled by an object.  You can start by chopping up the path into small steps.  Each step along the path is given by an infinitesimal vector displacement <m>\vec{dr}</m>.</p>
 	
 	<p><term>Multiply:</term> You can then multiply the force acting on the object by the displacement step above to get the infinitesimal amount of work done along only that step <m>dW = \vec{F} \cdot \vec{dr}</m>.</p>
 	
-		<p><term>Add:</term> Last, you <em>add</em> up all the infinitesimal works with an integral along the entire path: <m>W = \int_{i}^{f}\vec{F} \cdot \vec{dr}</m>.</p>
+	<p><term>Add:</term> Last, you <em>add</em> up all the infinitesimal works with an integral along the entire path: <m>W = \int_{i}^{f}\vec{F} \cdot \vec{dr}</m>.</p>
 
 	<exercises>
-	<title>Activities</title>
-			<exercise>
+		<title>Activities</title>
+		<exercise>
 			<statement>
-			  <p>You have a winch<fn>a machine that uses a rope to pull on another object</fn> that can be set to exert a changing force.  You decide to set your winch to produce the force <m>\vec{F}^{winch} = \frac{F_o}{L^2} (xL - x^2)\hat{x}</m>, where <m>F_o</m> and <m>L</m> are constants and <m>x</m> is the position of the object being pulled.  Sketch a graph of this force vs. position and use it to find the work done by the winch between <m>x_i = 0</m> and <m>x_f = L</m>.</p>
-				</statement>
-				<answer>
+			  	<p>You have a winch<fn>a machine that uses a rope to pull on another object</fn> that can be set to exert a changing force.  You decide to set your winch to produce the force <m>\vec{F}^{winch} = \frac{F_o}{L^2} (xL - x^2)\hat{x}</m>, where <m>F_o</m> and <m>L</m> are constants and <m>x</m> is the position of the object being pulled.  Sketch a graph of this force vs. position and use it to find the work done by the winch between <m>x_i = 0</m> and <m>x_f = L</m>.</p>
+			</statement>
+			<answer>
 				<p><m>W_{winch} = \frac{F_o L}{6}</m></p>
-				</answer>
-			</exercise>
-			
-			</exercises>
-	
+			</answer>
+		</exercise>
+	</exercises>
 </section>
-
-

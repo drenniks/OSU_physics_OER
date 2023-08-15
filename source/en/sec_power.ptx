@@ -13,27 +13,24 @@
 	</definition>
 
 	<exercises>
-  <title>Activities</title>
-				<exercise xml:id="x_summarize-power">
+  		<title>Activities</title>
+		<exercise xml:id="x_summarize-power">
 			<title>Summarize What You Learned - Power</title>
-			  <p>Write a 1-2 sentence description of what the definition of power says in words. </p>
-			</exercise>
-			<exercise>
+			<p>Write a 1-2 sentence description of what the definition of power says in words. </p>
+		</exercise>
+		<exercise>
 			<title>Sensemaking: Units</title>
-			 <statement>
-			  <p>Write the units of power in terms of other units you are familiar with in at least three different ways. Which do you think might be the most useful way of writing them?</p>
-				</statement>
-			</exercise>
-			<exercise>
+			<statement>
+				<p>Write the units of power in terms of other units you are familiar with in at least three different ways. Which do you think might be the most useful way of writing them?</p>
+			</statement>
+		</exercise>
+		<exercise>
 			<title>Explanation: Power Company</title>
-			  <p>When you get a bill from the power company, you pay for kilowatt-hours, not Watts. What are you actually paying for, and how do you know? </p>
-			</exercise>
-			<exercise>
+			<p>When you get a bill from the power company, you pay for kilowatt-hours, not Watts. What are you actually paying for, and how do you know? </p>
+		</exercise>
+		<exercise>
 			<title>Calculation</title>
 			<p>An average person produces 100 W of power.  How much energy does an average person use in one day?</p>
-			</exercise>
-			
-		</exercises>
-	
+		</exercise>
+	</exercises>
 </section>
-
