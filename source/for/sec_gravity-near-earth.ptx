@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_gravity-near-earth" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Gravity Near the Surface of the Earth</title>
-	
+  	<title>Gravity Near the Surface of the Earth</title>
 		        
-      <video youtube="1gDZC8lOaKI"><description>The gravitational force near the surface of the Earth.</description>
-      </video>
-
+    <video youtube="1gDZC8lOaKI"><description>The gravitational force near the surface of the Earth.</description></video>
 	
 	<assumption xml:id="a_near-earth">
-	<title>Near the Surface of the Earth</title>
-	<statement>
-		<p>The gravitational field due to the Earth near the surface of the Earth is uniform: <m>\vec{g} = g (-\hat{y})</m>, where <m>g = 9.81 \text{ m/s}^2 \approx 10 \text{ m/s}^2</m>.</p>
-	</statement>
-</assumption>
+		<title>Near the Surface of the Earth</title>
+		<statement>
+			<p>The gravitational field due to the Earth near the surface of the Earth is uniform: <m>\vec{g} = g (-\hat{y})</m>, where <m>g = 9.81 \text{ m/s}^2 \approx 10 \text{ m/s}^2</m>.</p>
+		</statement>
+	</assumption>
 	
 	<p>How does this assumption hold up to the questions in <xref ref="fig_assumptions"></xref>?  It certainly looks useful, since the magnitude <m>g</m> looks like a much easier expression than <m>\frac{GM_B}{r^2}</m>.  Most of the physics you will think about takes place near the surface of the Earth, so it is going to be reasonable much of the time.  The most obvious limitation is how far you are from the surface of the Earth, which will limit how accurate the approximation is.  Additionally, if you are near the surface of an object other than Earth, the gravitational field would still be uniform, but you would need to calculate the magnitude of the field for that object.</p>
 		
-			<exercises>
-			<title>Activities</title>
-			<exercise xml:id="x_gravity-directions">
-						<title>Sensemaking - Direction</title>
-			  <p>How is it possible that both <m>-\hat{y}</m> and <m>-\hat{r}</m> can both be reasonable directions for the Earth's gravitational field?</p>
-			</exercise>
+	<exercises>
+		<title>Activities</title>
+		<exercise xml:id="x_gravity-directions">
+			<title>Sensemaking - Direction</title>
+			<p>How is it possible that both <m>-\hat{y}</m> and <m>-\hat{r}</m> can both be reasonable directions for the Earth's gravitational field?</p>
+		</exercise>
 		<exercise>
-		<title>Real-world Context - Mars</title>
-			  <p>You are going to be the first person on Mars, and you want to know how the gravity on Mars compares to the gravity on Earth.  Calculate the gravitational field near the surface on Mars and how far from the surface you can get before the gravitational field changes by about 0.1%.</p>
-			</exercise>
-			</exercises>
-			
-  
-
-	
+			<title>Real-world Context - Mars</title>
+			<p>You are going to be the first person on Mars, and you want to know how the gravity on Mars compares to the gravity on Earth.  Calculate the gravitational field near the surface on Mars and how far from the surface you can get before the gravitational field changes by about 0.1%.</p>
+		</exercise>
+	</exercises>
 </section>
-

@@ -1,47 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_kinetic-friction" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Force of Kinetic Friction</title>
+  	<title>The Force of Kinetic Friction</title>
 
-		
-      <video youtube="tUtIkpymzkg"><description>An introduction to kinetic friction.</description>
-      </video>
+    <video youtube="tUtIkpymzkg"><description>An introduction to kinetic friction.</description></video>
 
-		
-				<definition>
-	<title>Kinetic Friction</title>
-	<statement>
-		<p>The magnitude of any <term>kinetic friction</term> force is related to the corresponding normal force<m>|\vec{F}^{kf}_{12}| = |\mu_k \vec{F}^{N}_{12}|</m>.  The kinetic friction will act in a direction that opposes the relative motion of the objects involved.</p>
-	</statement>
-</definition>
+	<definition>
+		<title>Kinetic Friction</title>
+		<statement>
+			<p>The magnitude of any <term>kinetic friction</term> force is related to the corresponding normal force<m>|\vec{F}^{kf}_{12}| = |\mu_k \vec{F}^{N}_{12}|</m>.  The kinetic friction will act in a direction that opposes the relative motion of the objects involved.</p>
+		</statement>
+	</definition>
 
-<p>The constant <m>\mu_k</m> is called the coefficient of kinetic friction; it is a property of the surfaces of the two objects involved in the force that is usually smaller than the corresponding <m>\mu_s</m>.</p>
+	<p>The constant <m>\mu_k</m> is called the coefficient of kinetic friction; it is a property of the surfaces of the two objects involved in the force that is usually smaller than the corresponding <m>\mu_s</m>.</p>
 
-	
-		
-		<exercises>
+	<exercises>
 		<title>Activities</title>
-			<exercise>
+		<exercise>
 			<title>Explaining Friction</title>
-			  <p>Give a one- or two-sentence explanation of the difference between static and kinetic friction, aimed at someone who has never taken a physics course.</p>
-			</exercise>
-						<exercise>
+			<p>Give a one- or two-sentence explanation of the difference between static and kinetic friction, aimed at someone who has never taken a physics course.</p>
+		</exercise>
+		<exercise>
 			<title>Exploring Coefficients of Friction</title>
-			  <p>Do a search to find a table of coefficients of friction (both static and kinetic) for different substances.  What is the general range of values that you see?</p>
-			</exercise>
-			<exercise>
+			<p>Do a search to find a table of coefficients of friction (both static and kinetic) for different substances.  What is the general range of values that you see?</p>
+		</exercise>
+		<exercise>
 			<title>Explore Friction</title>
-			  <p>Play with this forces simulation: <url href="https://phet.colorado.edu/en/simulations/forces-and-motion-basics"/>.  Make sure to investigate all four tabs.</p>
-			</exercise>
-			<exercise>
-			  <p>Describe an observation you were able to make using the simulation, especially if you observed anything that you consider unexpected or surprising.</p>
-			</exercise>
-			<exercise>
-			  <p>Design and carry out a (simple) experiment to test something using the simulation. Describe your experiment, your results, and what you feel you learned from carrying out your experiment.</p>
-			</exercise>
-		</exercises>
-  
-
-	
+			<p>Play with this forces simulation: <url href="https://phet.colorado.edu/en/simulations/forces-and-motion-basics"/>.  Make sure to investigate all four tabs.</p>
+		</exercise>
+		<exercise>
+			<p>Describe an observation you were able to make using the simulation, especially if you observed anything that you consider unexpected or surprising.</p>
+		</exercise>
+		<exercise>
+			<p>Design and carry out a (simple) experiment to test something using the simulation. Describe your experiment, your results, and what you feel you learned from carrying out your experiment.</p>
+		</exercise>
+	</exercises>
 </section>
-

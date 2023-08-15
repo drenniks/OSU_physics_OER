@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_special-cases" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Special-case Analysis</title>
+  	<title>Special-case Analysis</title>
 
-      <video youtube="dlprnaTxgGc"><description>An introduction to Special-case Analysis.</description></video>
-    
-		
-				<heuristic xml:id="sense_special-cases">
-	<title>Special-case Analysis</title>
-	<statement>
-		<p><term>Special-case Analysis</term> allows you to make sense of a symbolic equation in physics.  The objective is to choose a case that is <em>special</em> because the answer is obvious or the context becomes straightforward and check to see if your equation matches your intuition.</p>
-	</statement>
-</heuristic>
+    <video youtube="dlprnaTxgGc"><description>An introduction to Special-case Analysis.</description></video>
+    	
+	<heuristic xml:id="sense_special-cases">
+		<title>Special-case Analysis</title>
+		<statement>
+			<p><term>Special-case Analysis</term> allows you to make sense of a symbolic equation in physics.  The objective is to choose a case that is <em>special</em> because the answer is obvious or the context becomes straightforward and check to see if your equation matches your intuition.</p>
+		</statement>
+	</heuristic>
 
-<p>When you use Special-case Analysis, continue to follow the sensemaking steps you saw in <xref ref="fig_sensemaking"/>.  In particular, the chart below can help you keep track of how to use these sensemaking steps when you are using Special-case Analysis.</p>
+	<p>When you use Special-case Analysis, continue to follow the sensemaking steps you saw in <xref ref="fig_sensemaking"/>.  In particular, the chart below can help you keep track of how to use these sensemaking steps when you are using Special-case Analysis.</p>
 
-  <figure xml:id="fig_special-cases">
-		 <caption>Steps to follow when using Special-case Analysis.</caption>
+  	<figure xml:id="fig_special-cases">
+		<caption>Steps to follow when using Special-case Analysis.</caption>
 		<image source="SpecialCases.png" width = "50%">
-			<description>A flow chart with the steps for Special-case Analysis.</description></image>
-  </figure>	
+			<description>A flow chart with the steps for Special-case Analysis.</description>
+		</image>
+  	</figure>	
   
 	<exercises>
-	<title>Activities</title>
-			<exercise>
-			  <p>When you are making sense of something in physics, it can be tempting to just say "Yes, this makes sense to me."  Why do you think you should say more when sensemaking?</p>
-			</exercise>
-			<exercise xml:id="x_special-cases">
+		<title>Activities</title>
+		<exercise>
+			<p>When you are making sense of something in physics, it can be tempting to just say "Yes, this makes sense to me."  Why do you think you should say more when sensemaking?</p>
+		</exercise>
+		<exercise xml:id="x_special-cases">
 			<title>Practice with Special-case Analysis</title>
 			<statement>
-			  <p>Recall <xref ref="x_force-analysis"></xref> from the previous section.  Use Special-Case Analysis to make sense of your original solution to this context.  There are several possible special cases you might try here!</p>
-				</statement>
-				<hint>
+			  	<p>Recall <xref ref="x_force-analysis"></xref> from the previous section.  Use Special-Case Analysis to make sense of your original solution to this context.  There are several possible special cases you might try here!</p>
+			</statement>
+			<hint>
 				<p>Remember that the goal is to find a case that is truly special in the sense that the answer seems obvious or intuitive.  For example, if the kite string is horizontal, the force by the kite and the force by the father must directly cancel out if the wagon is to move at constant speed.  (Angles often make good special cases--are there any other special angles here?)</p>
-				</hint>
+			</hint>
 			</exercise>
 		</exercises>
-	
 </section>
-

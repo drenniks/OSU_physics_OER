@@ -1,48 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_spring-forces" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Spring Forces</title>
-	
-		<exercises>
+  	<title>Spring Forces</title>
+	<exercises>
 		<title>Exploring Spring Forces</title>
-			<exercise>
-			  <p>Play with this spring simulation: <url href="https://phet.colorado.edu/sims/html/masses-and-springs-basics/latest/masses-and-springs-basics_en.html"/>.  Play around with it for at least a few minutes.</p>
+		<exercise>
+			<p>Play with this spring simulation: <url href="https://phet.colorado.edu/sims/html/masses-and-springs-basics/latest/masses-and-springs-basics_en.html"/>.  Play around with it for at least a few minutes.</p>
+		</exercise>
+		<exercise>
+			<p>With the simulation from the previous question, investigate how the spring force appears to be related to the displacement of the spring.</p>
 			</exercise>
-			<exercise>
-			  <p>With the simulation from the previous question, investigate how the spring force appears to be related to the displacement of the spring.</p>
-				</exercise>
-		</exercises>
-  
-		        
-      <video youtube="lG4ixrdnEQ4"><description>An introduction to spring forces.</description></video>
-    
-		<definition xml:id="def_spring">
-	<title>Hooke's Law</title>
-	<statement>
-		<p>An ideal spring<fn>a spring that is massless and does not deform when displaced from equilibrium</fn> obeys Hooke's Law, with a force that is linearly proportional to the displacement from equilibrium: <m>\vec{F}^{S} = -k(\vec{x} - \vec{x}_{eq})</m>.</p>
-	</statement>
-</definition>
+	</exercises>
+          
+    <video youtube="lG4ixrdnEQ4"><description>An introduction to spring forces.</description></video>
+	<definition xml:id="def_spring">
+		<title>Hooke's Law</title>
+		<statement>
+			<p>An ideal spring<fn>a spring that is massless and does not deform when displaced from equilibrium</fn> obeys Hooke's Law, with a force that is linearly proportional to the displacement from equilibrium: <m>\vec{F}^{S} = -k(\vec{x} - \vec{x}_{eq})</m>.</p>
+		</statement>
+	</definition>
 	
-			<exercises>
+	<exercises>
 		<title>Activities: Practice with Spring Forces</title>
-			<exercise>
+		<exercise>
 			  <p>Explain how the expression in Hooke's Law is consistent with your observations from the simulation (cite a specific observation!).</p>
-			</exercise>
-			<exercise>
+		</exercise>
+		<exercise>
 			<statement>
 			  <p>Determine the units of the spring constant <m>k</m>.  Why do you think these are appropriate units for this quantity?</p>
-				</statement>
-				<answer>
+			</statement>
+			<answer>
 				<p>N/m</p>
-				</answer>
-			</exercise>
-		</exercises>
-		
+			</answer>
+		</exercise>
+	</exercises>		
 </section>
-
-
-
-
-
-
-

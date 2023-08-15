@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec_what-are-forces" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>What are Forces?</title>
+  	<title>What are Forces?</title>
 
-
-		<p><alert>Introductory Activity:</alert> Start by writing a short (2-3 sentence) description of how you use the term <em>force</em> in your everyday life. You might want to include an example.</p>
+	<p><alert>Introductory Activity:</alert> Start by writing a short (2-3 sentence) description of how you use the term <em>force</em> in your everyday life. You might want to include an example.</p>
 			  		
-        
-							<video youtube="FB-VKKcC660"><description>An introduction to forces.</description></video>
+	<video youtube="FB-VKKcC660"><description>An introduction to forces.</description></video>
 
-		
 	<!-- From Kathy's website -->
-    <p>
-      Simply stated, a force is something that pushes or pulls an object.  Isaac Newton originated the concept of forces, encapsulating the theory in terms of three laws, known as Newton's laws.  Force is a vector. It has a magnitude and a direction. In the simplest terms, you can think of a force as a push or a pull. An object can have more than one force acting on it. If we add up all of the forces acting on an object, we call this the net force. It can be a tricky business, since the forces can be acting in different directions. An object can have two forces acting on it and still have a net force of zero if the two forces are acting in different directions and have the same magnitude.
-    </p>
+    <p>Simply stated, a force is something that pushes or pulls an object.  Isaac Newton originated the concept of forces, encapsulating the theory in terms of three laws, known as Newton's laws.  Force is a vector. It has a magnitude and a direction. In the simplest terms, you can think of a force as a push or a pull. An object can have more than one force acting on it. If we add up all of the forces acting on an object, we call this the net force. It can be a tricky business, since the forces can be acting in different directions. An object can have two forces acting on it and still have a net force of zero if the two forces are acting in different directions and have the same magnitude.</p>
 		
-		<definition>
-	<title>Force</title>
-	<statement>
-		<p>A <term>force</term> is an interaction between two objects (or systems) that causes those objects to experience a push or pull.  Every force is a vector that has a <em>type</em> and involves two distinct objects acting on each other.</p>
-	</statement>
-</definition>
+	<definition>
+		<title>Force</title>
+		<statement>
+			<p>A <term>force</term> is an interaction between two objects (or systems) that causes those objects to experience a push or pull.  Every force is a vector that has a <em>type</em> and involves two distinct objects acting on each other.</p>
+		</statement>
+	</definition>
 
 
-<exercises>
-	<title>Activities: Explore forces</title>
-				<p>Use the video below to answer the exploration questions.</p>
-				<figure xml:id="for_ball">
-					<caption>Dr. Paws gets a ball.</caption>
-					<video youtube="_bhzaBtdUIE">
-					</video>
-									</figure>
+	<exercises>
+		<title>Activities: Explore forces</title>
+			<p>Use the video below to answer the exploration questions.</p>
+			<figure xml:id="for_ball">
+				<caption>Dr. Paws gets a ball.</caption>
+				<video youtube="_bhzaBtdUIE"></video>
+			</figure>
 			<exercise xml:id="x_intro-forces">
 			  <p>Identify and describe the different types of forces you believe are acting on Dr. Paws in the video above as she chases the ball.</p>
 			</exercise>
@@ -38,14 +32,10 @@
 			  <p>Write a short (2-3 sentence) description of how we use the term force in <em>physics</em>. Highlight any differences between your physics description and your personal description from the first exercise.</p>
 			</exercise>
 			<exercise>
-			<p>Brainstorm a list of possible different types of forces you can imagine acting on something.</p>
+				<p>Brainstorm a list of possible different types of forces you can imagine acting on something.</p>
 			</exercise>
 			<exercise>
-			<p>The SI unit for a force is the Newton, which is not commonly used in everyday.  The Imperial unit for force is the <term>pound</term>.  Use a search to find the number of Newtons in one pound.  An amateur soccer player might be able to kick a soccer ball with a force of around 500-700 pounds.  How many Newton's is this?</p>
+				<p>The SI unit for a force is the Newton, which is not commonly used in everyday.  The Imperial unit for force is the <term>pound</term>.  Use a search to find the number of Newtons in one pound.  An amateur soccer player might be able to kick a soccer ball with a force of around 500-700 pounds.  How many Newton's is this?</p>
 			</exercise>
 		</exercises>
-  
-
-	
 </section>
-
